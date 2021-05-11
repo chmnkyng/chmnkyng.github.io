@@ -94,8 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "조민경"
-  description      : "한경대학교 컴퓨터 공학과 2019250052"
+  name             : "mk"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :
   location         :
