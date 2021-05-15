@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "조민경"
+  name             : "Cho MinKyoung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "HKNU 컴퓨터공학과"
+  bio              :
   location         :
   email            :
   links:
