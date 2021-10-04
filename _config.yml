@@ -98,11 +98,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :
   location         : "South Korea"
-  email            : "min112341@gmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:min112341@gmail.com
+      # url: 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
