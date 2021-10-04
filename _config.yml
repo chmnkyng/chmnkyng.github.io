@@ -97,12 +97,12 @@ author:
   name             : "Cho MinKyoung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :
-  location         :
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:min112341@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
