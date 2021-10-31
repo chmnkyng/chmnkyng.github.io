@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: single
 title: "Workflow of machine learning"
 excerpt: "The process of dealing with machine learning problems."
 
