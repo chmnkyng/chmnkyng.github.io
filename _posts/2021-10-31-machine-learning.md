@@ -19,7 +19,7 @@ date: 2021-10-31
 
 ## 1. Define the task
 
-### 1.1 Frame the problem 
+### 1.1 Frame the prblem 
 
 기계 학습 문제를 구체화하려면 일반적으로 이해관계자들과의 많은 상세한 논의가 필요합니다. 이 과정에서 필요한 질문들이 있습니다.
 
@@ -104,7 +104,7 @@ date: 2021-10-31
 
 추가적으로 다음과 같은 엄격한 정규화 방법이 일반적입니다. (항상 필요한 것은 아니지만 도움이 될 수 있습니다.)
 
-- 평균이 o가 되도록 각 피쳐를 독립적으로 정규화합니다. 
+- 평균이 0이 되도록 각 피쳐를 독립적으로 정규화합니다. 
 - 표준 편차가 1이 되도록 각 피쳐를 독립적으로 정규화합니다.
 
 **Handling missing values**
@@ -143,7 +143,13 @@ date: 2021-10-31
 문제에 대한 성공을 측정하는 메트릭에 대해 직접 최적화하지 못하는 경우가 많습니다. 메트릭을 손실 함수로 바꾸는 쉬운 방법이 없을 때도 있습니다. 결국 손실 함수는 데이터의 작은 배치가 주어져야 하며, 역전파를 사용하여 네트워크를 훈련시킬 수 없어야 합니다.
 하단의 표는 일반적인 문제 유형에 대한 마지막 계층 활성화 및 손실 함수를 선택하는 데 도움이 될 수 있습니다.
 
-(표)
+|Problem type|Last-layer activation|Loss function|
+|:---:|:---:|:---:|
+|Binary classification|sigmoid|binary_crossentropy|
+|Multiclass,single-label classification|softmax|categorical_crossentropy|
+|Multiclass,multilabel classification|sigmoid|binary_crossentropy|
+|Regression to arbitrary values|None|mse|
+
 
 ### 2.4 Scale up: develop a model that overfits 
 
